@@ -1,0 +1,170 @@
+/* 
+    Author: subodh magar;
+    Theme:  Food Order  admin page;
+    version: 1.0;
+*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.wrapper{
+
+   
+    margin: 0 auto;
+    padding: 1%;
+    width: 80%;
+}
+
+.order-manage{
+
+   
+    margin: 0 auto;
+    padding: 1%;
+    width: 90%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    color:#ff6b81;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color:red;
+}
+
+.success{
+    color: #2ed573;
+
+}
+
+.error{
+    color: red;
+}
+
+.tblfull{
+    width: 100%;
+}
+
+.tbl-30{
+    width:30%;
+    
+}
+
+table tr th{
+
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: center;
+}
+table tr td{
+
+    padding: 1%;
+    text-align:center;
+}
+
+.btn-primary{
+    background-color:blue;
+    padding: 0.5%;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color:violet;
+    color: black;
+}
+
+.btn-secondary{
+    background-color:#7bed9f;
+    padding: 0.5%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+.btn-secondary:hover{
+    background-color:green;
+    color: white;
+}
+
+.btn-danger{
+    background-color:#ff6b81;
+    padding: 0.5%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+.btn-danger:hover{
+    background-color:red;
+    color: white;
+}
+
+/* css for footer */
+
+.footer{
+    background-color:  #ff6b81;
+}
+
+/* css for footer ends  */
+
+/* css for menu */
+
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* css for menu  ends */
+
+
+/* css for main-content */
+.main-content{
+   padding: 3% 0;
+    background-color: honeydew;
+}
+
+.col-4{
+
+    width: 18%;
+    background-color:white;
+    margin: 1%;
+    padding:2%;
+    float: left;
+}
+
+
+/* css for main-content ends */
+
+/* css for main-content ends */
+.login{
+    border:1px solid black;
+    border-radius: 5px;
+    width:25%;
+    text-align: center;
+    margin:5% auto;
+    padding: 10px;
+    
+
+}
